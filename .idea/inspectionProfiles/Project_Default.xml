@@ -1,0 +1,51 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="title" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="PyQt5-Qt5" />
+            <item index="1" class="java.lang.String" itemvalue="PyQt5" />
+            <item index="2" class="java.lang.String" itemvalue="PyQt5Designer" />
+            <item index="3" class="java.lang.String" itemvalue="PyQt5-sip" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="loadui.UI.clicked" />
+          <option value="loadui.UI.text" />
+          <option value="loadui.UI.addItem" />
+          <option value="loadui.UI.setText" />
+          <option value="loadui.UI.currentRow" />
+          <option value="loadui.UI.takeItem" />
+          <option value="loadui.UI.clear" />
+          <option value="loadui.CreateAccount.setEchoMode" />
+          <option value="PyQt5.QtWidgets.QLineEdit.Password" />
+          <option value="loadui.CreateAccount.clicked" />
+          <option value="loadui.CreateAccount.text" />
+          <option value="loadui.CreateAccount.setText" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
