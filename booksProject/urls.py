@@ -15,8 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from django.http import HttpResponse
+from django.shortcuts import render
+from book_api.views import index
 
 urlpatterns = [
+    path('', index),
     path('admin/', admin.site.urls),
     path('book/', include('book_api.urls'))
 ]

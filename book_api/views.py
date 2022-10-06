@@ -1,4 +1,5 @@
 from django.core.exceptions import ObjectDoesNotExist
+from django.shortcuts import render
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -50,3 +51,6 @@ class BookDetail(APIView):
         book = self.get_book_by_pk(pk)
         book.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+def index(request):
+    return render(request, 'index.html')

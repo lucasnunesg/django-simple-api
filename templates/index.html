@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link ref="stylesheet" src="style/main.css">
+    <title>API Index</title>
+</head>
+<body>
+    <h1 class="header">Books API Main Directory</h1>
+    <p> This is the main page of the Books API, please refer to the following links:</p>
+    <ul>
+        <li>
+            <a href="{% url 'book_list' %}">Get all items from database</a>
+        </li>
+        <li>
+            <a href="{% url 'book_create' %}">Add new book to the database</a>
+        </li>
+        <li>
+            To delete books please refer to the following directory: http://127.0.0.1:8000/book/<strong>id</strong>  (switching "id" for the desired book's id number)
+            <ul><li>Example (book id=2): <a href="http://127.0.0.1:8000/book/2">http://127.0.0.1:8000/book/2</a></li></ul>
+        </li>
+    </ul>
+</body>
+</html>
